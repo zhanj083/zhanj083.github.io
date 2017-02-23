@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+}
+
+
+img{
+	width: 100%;
+	height: 100%;
+}
+.rectangle1{
+	position: absolute;
+	top: 0px;
+	left: 433px;
+	width: 225px;
+	height: 100%;
+	/* Rectangle: */
+background: #4990E2;
+animation-name: change1;
+	animation-duration: 40s;
+}
+
+
+.rectangle2{
+	position: absolute;
+	top: 0;
+	left: 1378px;
+	width: 225px;
+	height: 100%;
+	/* Rectangle: */
+background: #4990E2;
+animation-name: change2;
+	animation-duration: 20s;
+
+}
+
+@keyframes change1 {
+	0% { left: 100%;}
+	20%{left: -100%;}
+	40%{left: 100%;}
+	60%{left: -100%;}
+	80%{left: 100%;}
+	100% { left: -100%;}
+}
+
+@keyframes change2 {
+	0% { left: 100%;}
+	20%{left: -100%;}
+	40%{left: 100%;}
+	60%{left: -100%;}
+	80%{left: 100%;}
+	100% { left: -100%;}
+}

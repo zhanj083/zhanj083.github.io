@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.polygon{
+	position: absolute;
+	top: 512px;
+	left: 180px;
+	width: 464px;
+	height: 464px;
+	caption-side: 5;
+	/* Polygon: */
+background: #4A4A4A;
+
+	animation-name: change;
+	animation-duration: 20s;
+}
+
+
+@keyframes change {
+	0% { top: 100%;}
+	20%{top: -100%;}
+	40%{top: 100%;}
+	60%{top: -100%;}
+	80%{top: 100%;}
+	100% { top: -100%;}
+}

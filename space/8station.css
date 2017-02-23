@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.triangle1{
+	position: fixed;
+	top: 240px;
+	left: 650px;
+	width: 0px;
+	height: 0;
+
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+
+	border-bottom: 50px solid white;
+	animation-name: change3;
+	animation-duration:40s;
+}
+
+.triangle2{
+	position: fixed;
+	top: 300px;
+	left: 650px;
+	width: 0px;
+	height: 0;
+
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+
+	border-bottom: 50px solid white;
+	animation-name: change3;
+	animation-duration:40s;
+}
+
+
+.triangle3{
+	position: fixed;
+	top: 527px;
+	left: 650px;
+	width: 0px;
+	height: 0;
+
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+
+	border-bottom: 50px solid white;
+	animation-name: change3;
+	animation-duration:40s;
+}
+
+@keyframes change3 {
+	0% { top: 90%;}
+	20%{top: -50%;}
+	40%{top: 50%;}
+	60%{top: 100%;}
+	80%{top: 20%;}
+	100% {top: 50%;}
+}

@@ -1,5 +1,6 @@
 *{
 	vertical-align: top;
+
 }
 
 body{
@@ -68,16 +69,15 @@ a:visited{color: #0ff;}
 	display: inline-block;
 }
 
-.parent{font-size: 0, 
-line-height:0;}
+.parent{font-size: 0 ;line-height:0;}
 
 .no-gutters{margin: 0;}
-.no-left-gutter{margin-left: 0;}
-.no-right-gutter{margin-right: 0;}
+.no-left-gutters{margin-left: 0;}
+.no-right-gutters{margin-right: 0;}
 
 
 
-.c1{width: 130px;}
+.c1{width: 130px; background: white;}
 
 .c2{width: 290px;}
 

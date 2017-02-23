@@ -1,0 +1,30 @@
+body{
+	font-family: "Futura"
+	background:#edeae8;
+}
+
+#name{
+		font-family: "Futura";
+		color: black;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	text-decoration: none;
+	letter-spacing: 50px;
+		font-size: 50px;
+
+}
+
+a:hover{
+	animation-name:example;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	position: relative;
+
+}
+
+@-webkit-keyframes example{
+	0%{color:black;}
+	50%{color: white;}
+	100%{color: black;}

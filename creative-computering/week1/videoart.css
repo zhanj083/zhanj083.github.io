@@ -1,0 +1,109 @@
+/*#longhair{
+	position: absolute;
+	top: 200px;
+	left:500px; 
+	width: 310px;
+	height:230px;
+}
+#longhair:hover{
+	opacity: 0.5;
+}
+p{
+	position: absolute;
+	top: 200px;
+}
+
+.longhair{
+	width: 425px;
+	height: 344px;
+	border: 0;
+
+
+
+}*/
+
+
+#name{
+	font-family: "Futura";
+	color: black;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	text-decoration: none;
+	letter-spacing: 50px;
+		font-size: 70px;
+		cursor: auto;
+
+}
+
+
+
+a{
+	font-family: "Helvetica";
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	letter-spacing: 10px;
+	
+}
+
+
+a:hover{
+	animation-name:example;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+#time{
+	position: absolute;
+	top: 160px;
+}
+
+#cuthair{
+	position: absolute;
+	top: 250px;
+	left: 10px;
+}
+
+#bow{
+	position: absolute;
+	top: 400px;
+}
+
+
+#gothic{
+	position: absolute;
+	top: 600px;
+}
+
+#outofplace{
+	position: absolute;
+	top: 420px;
+	left: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes example{
+	0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: black;font-family: "Palatino"}
+
+{

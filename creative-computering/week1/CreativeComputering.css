@@ -1,0 +1,105 @@
+a{
+
+		font-family: "Futura";
+	color: black;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	text-decoration: none;
+	
+		font-size: 50px;
+		
+
+}
+
+#name{
+	font-family: "Futura";
+	color: black;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	text-decoration: none;
+	letter-spacing: 50px;
+		font-size: 50px;
+		cursor: auto;
+}
+
+
+
+
+body{
+	background-color:white;
+}
+
+#clock{
+	position: relative;
+	top:200px;
+	left: 500px;
+	letter-spacing: 50px;
+}
+
+#shape{
+	position: relative;
+	top: 300px;
+	left: 200px;
+	letter-spacing: 50px;
+}
+
+
+#threethings{
+	position: relative;
+	top: 50px;
+	left: 400px;
+	letter-spacing:30px;
+}
+
+#api{
+	position: relative;
+	top: 500px;
+	left: -210px;
+	letter-spacing: 50px;
+}
+
+
+#textadventure{
+position: relative;
+	top: 620px;
+	left: 210px;
+	letter-spacing: 50px;
+}
+
+
+
+a{
+	font-family: "Helvetica";
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	
+}
+
+
+
+a:hover{
+	animation-name:example;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example{
+	0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: black;font-family: "Palatino"}
+
+{
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+#name{
+	font-family: "Futura";
+	color: black;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	text-decoration: none;
+	letter-spacing: 50px;
+		font-size: 70px;
+		cursor: auto;
+
+}
+
+a:hover{
+	animation-name:example;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+#fullwall{
+	width: 1088px;
+	height: 816px;
+	position: absolute;
+	top: 1500px;
+	left: 0;
+}
+
+
+#one{
+	position: absolute;
+	top: 514px;
+	left: 100px;
+	width: 612px;
+	height: 792px;
+}
+
+p{
+	position: absolute;
+	top: 270px;
+	left: 50px;
+	font-family: "Helvetica";
+	font-size: 30px;
+}
+
+
+.text2{
+	position: absolute;
+	top: 400px;
+	left: 50px;
+}
+
+@-webkit-keyframes example{
+	0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: black;font-family: "Palatino"}
+
+{

@@ -1,0 +1,159 @@
+#name{
+	font-family: "Futura";
+	color: black;
+	position: relative;
+	top: 5px;
+	left: 10px;
+	text-decoration: none;
+	letter-spacing: 50px;
+		font-size: 70px;
+		cursor: auto;
+
+}
+a{
+	font-family: "Helvetica";
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	letter-spacing: 10px;
+	
+}
+a:hover{
+	animation-name:example;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+p{
+	position: absolute;
+	top: 40px;
+	left: 550px;
+	font-family: "Helvetica";
+	font-size: 30px;
+}
+
+#one{
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	width: 1088px;
+	height: 816px;
+}
+
+#two{
+
+	position: absolute;
+	top: 1000px;
+	left: 200px;
+	width: 544px;
+	height: 408px;
+}
+
+
+#three{
+	position: absolute;
+	top: 1000px;
+	left: 760px;
+	width: 544px;
+	height: 408px;
+}
+#four{
+	position: absolute;
+	top: 1450px;
+	left: 200px;
+	width: 1088px;
+	height: 816px;
+}
+
+
+
+/*#square1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 500px;
+	background-color: black;
+	animation-name: example;
+	animation-duration: 10s; 
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes example{
+	0%{: 0px;}
+	50%{height: 600px;}
+	100%{height: 1400px;}
+}
+*/
+
+
+.box {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background: black;
+  animation: drop 5s ease-in;
+  animation-fill-mode: forwards;
+  transform: rotateZ(360deg);
+}
+
+.box1{
+	 position: absolute;
+  top: 1500px;
+  left: 1270px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background: black;
+  animation: drop 10s ease-in;
+  animation-fill-mode: forwards;
+  transform: rotateZ(360deg);
+
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(0) rotateZ(360deg);
+    
+  }
+  
+  15% {
+    transform: translateY(100px) rotateZ(360deg);
+    animation-timing-function: ease-out;
+  }
+  
+  25% {
+    transform: translateY(70px) rotateZ(360deg);
+    animation-timing-function: ease-out;
+  }
+  
+  40% {
+    transform: translateY(100px) rotateZ(0deg);
+    animation-timing-function: ease-out;
+  }
+  
+  60% {
+    transform: translateY(100px);
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  100% {
+    height: 300px;
+    border-radius: 10px;
+    transform: translateY(100px) rotateZ(0deg);
+  }
+}
+
+@-webkit-keyframes example{
+	0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: black;font-family: "Palatino"}
+
+{

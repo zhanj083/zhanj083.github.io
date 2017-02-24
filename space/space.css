@@ -25,6 +25,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 413px;
+	background: #4A4A4A;
 }
 
 .hover{
@@ -98,6 +99,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 1854px;
+	background: #4990E2;
 }
 
 .leftmainstation-2{
@@ -165,6 +167,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 3295px;
+	background: #9012FE;
 }
 
 .leftmainstation-3{
@@ -231,6 +234,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 4736px;
+	background:#7ED321;
 }
 
 .leftmainstation-4{
@@ -297,6 +301,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 6177px;
+	background: #F8E81C;
 }
 
 .leftmainstation-5{
@@ -363,6 +368,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 7618px;
+	background: #D23B3B;
 }
 
 .leftmainstation-6{
@@ -427,6 +433,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 9059px;
+	background:#50E3C2;
 }
 
 .leftmainstation-7{
@@ -559,6 +566,7 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 11941px;
+	background: #F07676;
 }
 
 .leftmainstation-9{
@@ -624,6 +632,8 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 13382px;
+
+background: #F6A623;
 }
 
 .leftmainstation-10{
@@ -673,7 +683,7 @@ body{
 	left: 13916px;
 }
 
-.shape{
+/*.shape{
 	position: absolute;
 	top: 512px;
 	left: 180px;
@@ -681,9 +691,9 @@ body{
 	height: 464px;
 	caption-side: 5;
 	/* Polygon: */
-background: #4A4A4A;
+/*background: #4A4A4A;
 
-}
+}*/*/
 
 
 
@@ -705,6 +715,8 @@ background: #4A4A4A;
 	height: 345px;
 	top: 205px;
 	left: 14823px;
+
+
 }
 
 .leftmainstation-11{
@@ -753,6 +765,8 @@ background: #4A4A4A;
 	top: 81px;
 	left: 15357px;
 }
+
+
 
 
 

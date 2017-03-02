@@ -25,7 +25,17 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 413px;
-	background: #4A4A4A;
+	/*background: #4A4A4A;*/
+}
+
+.mainstation:hover{
+	position: absolute;
+	width: 464px;
+	height: 345px;
+	left: 550px;
+	caption-side: 5;
+	/* Polygon: */
+background: #4A4A4A;
 }
 
 .hover{
@@ -99,7 +109,22 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 1854px;
-	background: #4990E2;
+
+
+
+	/*background: #4990E2;*/
+}
+
+
+.mainstation-2:hover{
+
+	position: absolute;
+	top: 100px;
+	left: 2070px;
+	width: 225px;
+	height: 405px;
+	/* Rectangle: */
+background: #4990E2;
 }
 
 .leftmainstation-2{
@@ -167,8 +192,24 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 3295px;
-	background: #9012FE;
+	/*background: #9012FE;*/
 }
+
+
+.mainstation-3:hover{
+position: absolute;
+	
+	left: 3500px;
+	width: 336px;
+	height: 500px;
+	top: 40px;
+	caption-side: 5;
+/* Rectangle 2: */
+background: #9012FE;
+border-radius: 100px;
+}
+
+
 
 .leftmainstation-3{
 	width: 141px;
@@ -234,8 +275,25 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 4736px;
-	background:#7ED321;
+	/*background:#7ED321;*/
 }
+
+
+
+.mainstation-4:hover{
+
+	left: 4800px;
+	top: 0;
+	width: 700px;
+	height: 700px;
+	border-radius: 50%;
+	background: #7ED321;
+/* Oval 2: */
+border: 0px solid #7ED321;
+
+}
+
+
 
 .leftmainstation-4{
 	width: 141px;
@@ -301,7 +359,25 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 6177px;
-	background: #F8E81C;
+	/*background: #F8E81C;*/
+}
+
+
+
+
+.mainstation-5:hover{
+
+
+	left: 6250px;
+	width: 706px;
+	height: 345px;
+
+	/* Rectangle 3: */
+transform: rotate(44deg);
+background: #F8E81C;
+border-radius: 100px;
+
+
 }
 
 .leftmainstation-5{
@@ -368,7 +444,19 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 7618px;
-	background: #D23B3B;
+	/*background: #D23B3B;*/
+}
+
+.mainstation-6:hover{
+	top: 	50px;
+	left: 7700px;
+	width: 310px;
+	height: 310px;
+
+/* Oval Copy: */
+background: #D23B3B;
+border-radius: 50%;
+
 }
 
 .leftmainstation-6{
@@ -433,7 +521,23 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 9059px;
-	background:#50E3C2;
+	/*background:#50E3C2;*/
+}
+
+
+.mainstation-7:hover{
+/*	top: 0px;*/
+	top: 205px;
+	left: 9260px;
+	width: 0px;
+	height: 0;
+
+	border-left: 200px solid transparent ;
+	border-right: 200px solid transparent;
+
+	border-bottom: 300px solid #50E3C2;
+
+
 }
 
 .leftmainstation-7{
@@ -502,6 +606,21 @@ body{
 	left: 10500px;
 }
 
+
+
+.mainstation-8:hover{
+	top: 370px;
+	/*left: 650px;*/
+	width: 600px;
+	height: 0;
+	background: white;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+
+	border-bottom: 50px solid white;
+}
+
+
 .leftmainstation-8{
 	width: 141px;
 	height: 345px;
@@ -566,7 +685,19 @@ body{
 	height: 345px;
 	top: 205px;
 	left: 11941px;
-	background: #F07676;
+	/*background: #F07676;*/
+}
+
+
+
+.mainstation-9:hover{
+	top: 40px;
+	left: 12000px;
+	width: 262px;
+	height: 100%;
+/* Rectangle 4: */
+background: #F07676;
+
 }
 
 .leftmainstation-9{
@@ -633,8 +764,18 @@ body{
 	top: 205px;
 	left: 13382px;
 
+/*background: #F6A623;*/
+}
+
+.mainstation-10:hover{
+top: 382px;
+	left: 13600px;
+	width: 630px;
+	height: 100%;
+
 background: #F6A623;
 }
+
 
 .leftmainstation-10{
 	width: 141px;

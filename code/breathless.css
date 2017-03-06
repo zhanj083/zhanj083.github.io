@@ -1,0 +1,100 @@
+a{
+position: fixed;
+top: 0px;
+left: 0px;
+/* JUN: */
+font-family: Palatino;
+font-size: 144px;
+color: black;
+letter-spacing: 0.37px;
+text-decoration: none;
+}
+
+
+
+hr { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #000000;
+    border-width: 2px;
+    background: black;
+    /*top: 235px;*/
+    /*position: absolute;
+    top: 235px;
+*/    
+} 
+
+
+h1,h2,h3{
+	/* MOVIE POSTER DESIGN: */
+font-family: Helvetica-Bold;
+font-size: 72px;
+color: #000000;
+letter-spacing: 0.18px;
+position: absolute;
+}
+
+h1{
+	top: 267px;
+}
+
+h2{
+	top: 353px;
+}
+
+h3{
+	top: 526px;
+}
+
+.image{
+	width: 466px;
+	height: 659px;
+	position: absolute;
+}
+
+
+.img1{
+	top: 824px;
+	left: 114px;
+}
+
+.img2{
+	top: 824px;
+	left: 845px;
+}
+
+.img3{
+	top: 1650px;
+	left: 104px;
+}
+
+
+.img4{
+	top: 1637px;
+	left: 845px;
+}
+
+.img5{
+	width: 1213px;
+	height: 1716px;
+	position: absolute;
+	top: 2531px;
+	left: 114px;
+}
+
+
+a:hover{
+animation-name: example;
+animation-duration: 3s;
+animation-timing-function: ease;
+}
+
+@-webkit-keyframes example{
+	0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: black;font-family: "Futura"}
+
+}
+
+

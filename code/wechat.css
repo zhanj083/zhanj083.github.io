@@ -1,0 +1,104 @@
+a{
+position: fixed;
+top: 0px;
+left: 0px;
+/* JUN: */
+font-family: Palatino;
+font-size: 144px;
+color: black;
+letter-spacing: 0.37px;
+text-decoration: none;
+}
+
+
+
+hr { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #000000;
+    border-width: 2px;
+    background: black;
+    /*top: 235px;*/
+    /*position: absolute;
+    top: 235px;
+*/    
+} 
+
+h1,h2{
+	/* zhanj083@newschool.e: */
+font-family: Palatino;
+font-size: 48px;
+color: black;
+position: absolute;
+
+}
+
+h1{
+	top: 178px;
+left: 50px;
+}
+
+
+
+.text1,.text2,.text3,.text4{
+	position: absolute;
+	top: 506px;
+	font-size: 30px;
+}
+
+
+
+.text1{
+	left: 31px;
+}
+.text2{
+	left: 425px;
+}
+.text3{
+	left: 818px;
+}
+.text4{
+	left: 1215px;
+}
+
+
+.wechat1,.wechat2,.wechat3,.wechat4{
+position: absolute;
+top: 567px;
+width: 206px;
+height: 355px;
+}
+
+
+.wechat1{
+	left: 31px;
+}
+
+.wechat2{
+	left: 347px;
+}
+
+
+.wechat3{
+	left: 818px;
+}
+
+
+
+.wechat4{
+	left: 1215px;
+}
+
+.timewechat{
+ width: 1440px;
+ height: 890px;
+ position: absolute;
+ top: 1000px;
+}
+
+.down{
+	position: absolute;top: 2000px;
+	width: 100%;
+	height: 1px;
+}

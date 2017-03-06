@@ -1,0 +1,105 @@
+a{
+position: fixed;
+top: 0px;
+left: 0px;
+/* JUN: */
+font-family: Palatino;
+font-size: 144px;
+color: black;
+letter-spacing: 0.37px;
+text-decoration: none;
+}
+
+
+
+hr { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #000000;
+    border-width: 2px;
+    background: black;
+    /*top: 235px;*/
+    /*position: absolute;
+    top: 235px;
+*/    
+} 
+
+h1,h2,h3, h4{
+/* YOKO ONO poster is b: */
+border: 1px solid #979797;
+font-family: Helvetica-Bold;
+font-size: 36px;
+color: #000000;
+letter-spacing: 0.09px;
+position: absolute;
+
+left: 50px;
+
+}
+
+h1{
+	top: 200px;
+}
+h2{
+	top: 270px;
+}
+
+h3{
+	top: 338px;
+}
+
+h4{
+top: 401px;
+}
+
+
+.poster1, .poster2{
+	position: absolute;
+	width: 612px;
+	height: 792px;
+	top: 580px
+}
+
+
+
+.poster1{
+	left: 100px;
+}
+
+.poster2{
+	left:764px; 
+}
+
+
+.poster3{
+	position: absolute;
+	width: 1312px;
+	height: 1083px;
+	top: 1410px;
+	left: 63px;
+}
+
+
+
+.down{
+	position: absolute;top: 2600px;
+	width: 100%;
+	height: 1px;
+	background: black;
+}
+
+
+
+
+a:hover{
+animation-name: example;
+animation-duration: 3s
+}
+
+@-webkit-keyframes example{
+	0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: black;font-family: "Futura"}
+
+}

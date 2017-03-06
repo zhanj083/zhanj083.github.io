@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+background-color: black;
+	width: 100%;
+	height: 2733px;
+
+}
+
+
+.jun,.spellingbee,.breathless,.yoko,.musicvideo,.time, .booklet, .wechat{
+	text-decoration: none;
+	font-family: Palatino;
+font-size: 144px;
+color: #FFFFFF;
+letter-spacing: 0.31px;
+position: absolute;
+
+}
+
+.jun{
+	/* JUN: */
+
+top: 0;
+left: 42px;
+
+
+}
+
+.booklet{
+
+top: 386px;
+left: 490px;
+
+}
+
+.spellingbee{
+	top: 752px;
+	left: 327px;
+	/* SpELLing bee Poster: */
+/*font-family: Arial-Black;
+font-size: 126px;
+color: #FFFFFF;
+letter-spacing: 0.28px;*/
+}
+
+.breathless{
+	top: 1113px;
+	left: 327px;
+
+}
+
+
+.yoko{
+	top: 1474px;
+	left: 327px;
+
+}
+
+
+.musicvideo{
+	top: 1835px;
+	left: 356px;
+}
+
+
+.time{
+	top: 2196px;
+	left: 200px;
+}
+
+
+
+.wechat{
+	top: 2557px;
+	left: 171px;
+}
+
+a:hover{
+animation-name: example;
+animation-duration: 3s
+}
+
+@-webkit-keyframes example{
+	0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: black;font-family: "Futura"}
+
+}
+/*
+.jun,.spellingbee,.breathless,.yoko,.musicvideo,.time, .booklet:hover{
+
+	animation-name:example;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+	position: relative;
+
+}
+
+@-webkit-keyframes example{
+0%{color:black;font-family: "Helvetica"}
+	50%{color: white;font-family: "Garamond"}
+	100%{color: white;font-family: "Palatino"}
+
+{*/
+
+
+
+
+

@@ -1,0 +1,18 @@
+/*<div class="letter basketball-link">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+
+<div class="hide basketball"></div>
+<div class="hide baseball"></div>
+
+
+$('.letter').click(function() {
+	if ($(this).hasClass('basketball-link')) {
+		$('.basketball').removeClass('hide');
+	} else if ($(this).hasClass('baseball-link')) {
+		$('.baseball').removeClass('hide');
+	}
+})*/

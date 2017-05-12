@@ -1,0 +1,500 @@
+body{
+/*	background-color: black;
+	animation-name: lighter;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	display: hide;*/
+	margin: 0;
+	padding: 0;
+	background: black;
+	height: 100%;
+	width:100%;
+  overflow: hidden;
+  animation-name: colorchange;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+user-select: none;
+}
+
+
+/*
+.colorchange2{
+  width: 100%;
+  height: 100%;
+animation-name: colorchange2;
+animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+
+}
+
+
+.colorchange3{
+    width: 100%;
+  height: 100%;
+animation-name: colorchange3;
+animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+
+}
+
+
+.colorchange4{
+    width: 100%;
+  height: 100%;
+animation-name: colorchange4;
+animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+
+}
+
+
+.colorchange5{
+    width: 100%;
+  height: 100%;
+  animation-name:colorchange5;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+
+}
+
+
+
+.colorchange6{
+    width: 100%;
+  height: 100%;
+  animation-name:colorchange6;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+
+}*/
+
+
+
+
+
+
+
+
+
+html{
+	color: black;
+
+}
+
+
+
+div{
+	color: white;
+	/*font-family: "Futura";*/
+	width: 100%;
+	height:100%;
+
+}
+
+
+
+/*
+.small1{ 	
+	font-size: 150%;
+	width: 100%;
+	height: 100%;
+	display: block;
+}*/
+
+
+.big,.small{
+  position: relative;
+  top: 50%;
+  left: 14%;
+}
+
+
+
+.big1,.big2,.big3,.big4,.big5,.big6,.big7,.big8,.big9,.big10,.big11,.big12,.big13,.big14,.big15,.big16,.big17,.big18,.big19,.big20,.big21,.big22,.big23,.big24,.big25,.big26,.big27,.big28,.big29,.big30,.big31,.big32,.big33,.big34,.big35,.big36,.big37,.big38,.big39,.big40,.big41,.big42,.big43,.big44,.big45,.big46,.big47{
+  display: none;
+    width: 100%;
+  height: 100%;
+   font-size: 100%;
+
+}
+
+
+
+
+
+.small1,.small2,.small3,.small4,.small5,.small6,.small7,.small8,.small9,.small10,.small11,.small12,.small13,.small14,.small15,.small16,.small17,.small18,.small19,.small20,.small21,.small22,.small23,.small24,.small25,.small26,.small27,.small28,.small29,.small30,.small31,.small32,.small33,.small34,.small35,.small36,.small37,.small38,.small39,.small40,.small41,.small42,.small43,.small44,.small45,.small46{
+	display: none;
+	 	width: 100%;
+	height: 100%;
+	 font-size: 100%;
+
+}
+
+/*
+.mid1,.mid2,.mid3,.mid4,.mid5,.mid6{
+  display: none;
+    width: 100%;
+  height: 100%;
+   font-size: 100%;
+
+}*/
+
+
+/*.small,.big{
+  animation-name: lighter;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: 2;
+user-select: none;
+
+
+}*/
+
+
+
+
+
+@keyframes colorchange{
+  0%{ background: #000000 }
+  25%{ background: #4d4d4d }
+  50%{  background: #808080}
+  75%{  background:  #a6a6a6}
+  100%{  background: #f2f2f2}
+}
+
+
+
+@keyframes colorchange2{
+  0%{background:#6699ff; }
+  25%{ background: #6666ff }
+  50%{  background: #9999ff}
+  75%{  background:  #8c8cd9}
+  100%{background:#1a75ff;}
+}
+
+
+@keyframes colorchange3{
+  0%{background:#4080bf; }
+  25%{ background: #0059b3 }
+  50%{  background: #0080ff}
+  75%{  background: #0099e6}
+  100%{background:#006699}
+}
+
+
+
+@keyframes colorchange4{
+  0%{background:#00b386}
+  25%{ background: #00cccc}
+  50%{  background: #00cc99}
+  75%{  background: #00ace6}
+  100%{background:#00e6b8}
+}
+
+
+
+
+@keyframes colorchange5{
+  0%{background:#ffffff}
+  25%{ background: #003399}
+  50%{  background: #003366}
+  75%{  background: #004d00}
+  100%{background:#666600;}
+}
+
+
+
+@keyframes colorchange6{
+  0%{background:#000000}
+  25%{ background: #1a1a1a}
+  50%{  background: #808080}
+  75%{  background: #ccccff}
+  100%{background:#ffcccc;}
+}
+
+
+
+
+/*
+
+@media only screen and (max-height: 100px){
+    body {
+        background: #0d0d0d;
+    }  
+
+    .small1{
+  display: block;
+
+}
+
+
+    .big1,.big2,.big3,.big4,.big5,.big6,.big7,.small2,.small3,.small4,.small5,.small6{
+  display: none;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-height: 200px){
+    body {
+        background:#262626;
+ 
+    }
+  .small2{
+  display: block;
+
+
+}
+
+  
+    .big1,.big2,.big3,.big4,.big5,.big6,.big7,.small1,.small3,.small4,.small5,.small6{
+  display: none;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-height: 300px){
+    body {
+        background: #404040;
+      
+    }
+  .small3{
+  display: block;
+
+}
+  
+    .big1,.big2,.big3,.big4,.big5,.big6,.big7,.small1,.small2,.small4,.small5,.small6 {
+  display: none;
+}
+
+}
+
+
+
+@media only screen and (max-height: 400px){
+    body {
+        background: #595959;
+    }
+  .small4{
+  display: block;
+
+}
+  
+    .big1,.big2,.big3,.big4,.big5,.big6,.big7,.small1,.small2,.small3,.small5,.small6 {
+  display: none;
+}
+
+}
+
+
+
+@media only screen and (max-height: 500px){
+    body {
+        background: #737373;
+    }
+  .small5{
+  display: block;
+
+}
+  
+    .big1,.big2,.big3,.big4,.big5,.big6,.big7,.small1,.small2,.small3,.small4,.small6 {
+  display: none;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-height: 700px){
+    body {
+        background: #999999;
+    }
+  .small6{
+  display: block;
+
+}
+  
+    .big1,.big2,.big3,.big4,.big5,.big6,.big7,.small1,.small2,.small3,.small4,.small5 {
+  display: none;
+}
+
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (max-width: 1400px) and (max-height: 800px){
+    body {
+         background: #999999;
+    }
+  .big1{
+  display: block;
+}
+  
+    .big2,.big3,.big4,.big5,.big6,.big7,.small1,.small2,.small3,.small4,.small5,.small6 {
+  display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 1300px) and (max-height: 800px){
+    body {
+         background: #999999;
+    }
+  .big2{
+  display: block;
+}
+  
+    .big1,.big3,.big4,.big5,.big6,.big7,.small1,.small2,.small3,.small4,.small5,.small6 {
+  display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 1100px) and (max-height: 800px) {
+    body {
+       
+        background: #808080;
+    }
+  .big3{
+  display: block;
+}
+  
+    .big1,.big2,.big4,.big5,.big6,.big7,.small1,.small2,.small3,.small4,.small5,.small6 {
+  display: none;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) and (max-height: 800px){
+    body {
+      
+        background: #666666;
+    }
+  .big4{
+  display: block;
+}
+  
+    .big1,.big2,.big3,.big5,.big6,.big7,.small1,.small2,.small3,.small4,.small5,.small6 {
+  display: none;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) and (max-height: 800px){
+    body {
+          background:  #4d4d4d;
+    }
+  .big5{
+  display: block;
+}
+  
+    .big1,.big2,.big3,.big4,.big6,.big7,.small1,.small2,.small3,.small4,.small5,.small6 {
+  display: none;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) and (max-height: 800px){
+    body {
+        background:#333333;
+    }
+  .big6{
+  display: block;
+}
+  
+    .big1,.big2,.big3,.big4,.big5,.big7,.small1,.small2,.small3,.small4,.small5,.small6{
+  display: none;
+}
+
+}
+
+
+
+@media only screen and (max-width: 300px) and (max-height: 800px){
+    body {
+        background: #1a1a1a;
+    }
+  .big7{
+  display: block;
+}
+  
+    .big1,.big2,.big3,.big4,.big5,.big6,.small1,.small2,.small3,.small4,.small5,.small6{
+  display: none;
+}
+
+}
+*/
+
+
+
+
+
+
+
+

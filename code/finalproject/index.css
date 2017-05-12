@@ -1,0 +1,46 @@
+body{
+  background: white;
+}
+  
+.arrow,
+.arrow:before{
+  position: absolute;
+  left: 47%;
+}
+.arrow{
+  width: 40px;
+  height: 40px;
+  top: 30%;
+  margin: -20px 0 0 -20px;
+  /*-webkit-transform: rotate(45deg);*/
+  border-left: none;
+  border-top: none;
+  border-right: 2px black solid;
+  border-bottom: 2px black solid;
+ 
+}
+  
+.arrow:before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 30%;
+  margin: -5px 0 6px -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+  }
+
+@keyframes arrow{
+  0%
+    {opacity: 1}
+  100%
+  { opacity: 0;
+    transform: translate(-10px, -10px);}
+  
+  
+  

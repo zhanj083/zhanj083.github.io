@@ -1,0 +1,69 @@
+html,body{
+/*	background-color: black;
+	animation-name: lighter;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	display: hide;*/
+	margin: 0;
+	padding: 0;
+	background: black;
+	height: 100%;
+	width:100%;
+}
+
+
+
+
+html{
+	color: black;
+
+}
+
+
+
+div{
+	color: white;
+	font-family: "Futura";
+	width: 100%;
+	height:100%;
+
+}
+
+
+
+/*
+.small1{ 	
+	font-size: 150%;
+	width: 100%;
+	height: 100%;
+	display: block;
+}*/
+
+
+.big,.small6{
+  position: relative;
+  top: 30%;
+  left: 14%;
+}
+.small{
+  position: relative;
+  top: 20%;
+  left: 14%;
+}
+
+
+
+.big1,.big2,.big3,.big4,.big5,.big6,.big7{
+  display: none;
+  font-size: 100%;
+  	width: 100%;
+	height: 100%;
+
+}
+.small1,.small2,.small3,.small4,.small5,.small6,.small7{
+	display: none;
+	 	width: 100%;
+	height: 100%;
+	 font-size: 100%;
+
+}
